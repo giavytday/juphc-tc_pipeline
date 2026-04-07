@@ -1,7 +1,7 @@
 apiVersion: tekton.dev/v1beta1
 kind: Pipeline
 metadata:  
-  name: juphc-tc-pipeline
+  name: tc-pipeline
 spec:
   workspaces:
     - name: pipeline-workspace
