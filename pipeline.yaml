@@ -9,6 +9,7 @@ spec:
   params:
     - name: build-image
     - name: repo-url
+    - name: app-name
     - name: branch
       default: main
   tasks:
